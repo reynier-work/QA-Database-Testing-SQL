@@ -1,22 +1,27 @@
-# 🚖 Proyecto de QA: Auditoría de Datos - Chicago Taxi
+# Chicago Taxi: Backend Testing, SQL & Server Log Analysis
+### [Versión en español más abajo]
 
-Este repositorio contiene la ejecución técnica del **Sprint 7** de mi formación como QA Engineer en TripleTen. El proyecto se enfoca en la investigación de errores en servidor mediante terminal y la validación de integridad de datos en bases de datos relacionales.
+## 🚀 Project Overview
+This project focuses on backend validation for a transportation service. It demonstrates the ability to audit data integrity and diagnose server-side issues using professional terminal environments and database management systems.
 
-## 🛠️ Tecnologías y Herramientas
-* **Consola Cygwin:** Emulación de Bash para navegación de directorios y filtrado de logs.
-* **PostgreSQL:** Consultas avanzadas para validación de lógica de negocio y métricas de transporte.
-* **Dataset:** Datos reales de la industria de taxis de Chicago.
+### 🛠️ Tech Stack & Keywords (ATS Optimized)
+* **Databases:** PostgreSQL (Complex SQL queries, Data Validation).
+* **Environment:** Unix Shell (Cygwin), Bash.
+* **Tools:** Jira (Bug Tracking), Server Logs (Root Cause Analysis).
 
-## 📋 Habilidades de QA Demostradas
+---
 
-### 📂 [Investigación de Backend (Logs)](./consola_cygwin/)
-* **Rastreo de Errores:** Localización de IPs específicas mediante comandos `grep`.
-* **Aislamiento de Bugs:** Segmentación de errores HTTP 400 y 500 para diagnóstico del equipo de desarrollo.
+## 🚀 Resumen del Proyecto
+Validación técnica del backend para la aplicación Chicago Taxi. Este proyecto demuestra competencia en la auditoría de integridad de datos y diagnóstico de errores de servidor mediante el uso de terminales profesionales y sistemas de gestión de bases de datos.
 
-### 📂 [Validación de Base de Datos (SQL)](./consultas_sql/)
-* **Agregación de Datos:** Uso de `COUNT`, `GROUP BY` y `HAVING` para análisis de flotas.
-* **Lógica Condicional:** Uso de `CASE` para validar tarifas dinámicas según clima.
-* **Integración de Tablas:** Uso de `JOINS` para auditar la discrepancia entre viajes y ganancias.
+### 🛠️ Tecnologías y Herramientas
+* **Bases de Datos:** PostgreSQL (Consultas SQL avanzadas, Validación de datos).
+* **Entorno:** Unix Shell (Cygwin), Bash.
+* **Habilidades:** Análisis de Logs (Causa Raíz), Gestión de Defectos en Jira.
+
+### 🧪 Ejecución Técnica
+1.  **Auditoría SQL:** Ejecución de consultas en **PostgreSQL** para validar que la lógica de negocio se refleje correctamente en la base de datos.
+2.  **Diagnóstico de Servidor:** Uso de la consola **Cygwin** para navegar directorios de servidor y filtrar logs, identificando errores HTTP y cuellos de botella.
 
 ---
 **Candidato:** Reynier Martin  
